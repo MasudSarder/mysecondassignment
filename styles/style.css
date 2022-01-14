@@ -2,7 +2,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 /* common style utilities */
+*{
+    padding: 0%;
+    margin: 0%;
+}
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1ff;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cotainer{
+    background-color: #FFFFFF;
+    max-width: 920px;
+    padding: 30px;
+}
+/* blogs styles  */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+}
+.bloground{
+    box-shadow: 0 0 40px;
+    width: 330px;
+    height: 476px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+}
+.blog img{
+    margin: 9px;
+    width: 300px;
+}
+.blog-detail{
+    margin: 10px;
+}
+.blog-title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.blog-pera{
+    margin-bottom: 10px;
+}
+.fa-star.filled{
+    color: burlywood;
+}
+.last-blog a{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.last-blog a{
+    text-decoration: none;
+}
+.last-blog-title{
+    color: #E02C6D;
+    margin-right: 5px;
+}
+.fa-arrow-right{
+    color: #E02C6D;
 }

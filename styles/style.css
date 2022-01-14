@@ -65,3 +65,17 @@ main{
 .fa-arrow-right{
     color: #E02C6D;
 }
+
+/* footer styles */
+.first-footer{
+    padding: 40px;
+    background-color: black;
+    text-align: center;
+}
+.footer-title{
+    color: rgba(255, 255, 255, 0.815);
+}
+.fab{
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.897);
+}
